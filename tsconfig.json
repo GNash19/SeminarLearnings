@@ -9,7 +9,7 @@
     // ... your existing options ...
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }

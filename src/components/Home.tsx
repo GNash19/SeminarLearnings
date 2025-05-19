@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from './Layout';
+import seminar1 from '@/assets/images/seminar1.jpg';
+import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
   // Dummy seminar data
@@ -11,7 +13,7 @@ const Home: React.FC = () => {
       date: "May 17, 2023",
       speaker: "Sir Ned Isaiah Palacios",
       description: "Learning how the industry works and how to get there.",
-      image: "/src/images/seminar1.jpg"
+      image: seminar1
     }
   ];
 
@@ -44,7 +46,7 @@ const Home: React.FC = () => {
             </div>
             <div className="relative h-64 md:h-80 bg-gray-200 overflow-hidden rounded">
               <img 
-                src="/src/images/homeback.jpg" 
+                src={homepic} 
                 alt="Computer Science Student"
                 className="absolute inset-0 w-full h-full object-cover"
               />

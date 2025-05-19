@@ -3,6 +3,10 @@ import React from "react";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import Layout from "./Layout";
 import { BookText, Code2, Cpu, Gamepad2, GraduationCap, Layers3, Library, ScrollText } from "lucide-react";
+import pharmtrack from '@/assets/images/pharmtrack.png';
+import echonites from '@/assets/images/echonites.png';
+import graduate from '@/assets/images/graduate.png';
+import me from '@/assets/images/me.png';
 
 const About: React.FC = () => {
   return (
@@ -13,7 +17,7 @@ const About: React.FC = () => {
           <div className="md:col-span-1 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-200 mb-4">
               <img 
-                src="/src/images/me.png" 
+                src={me} 
                 alt="Nash T. Golosino"
                 className="w-full h-full object-cover"
               />
@@ -172,17 +176,17 @@ const About: React.FC = () => {
               {
                 title: "PharmTrack",
                 description: "Inventory management system for pharmacies with receipt generation capabilities",
-                image: "SeminarLearnings/src/images/pharmtrack.png"
+                image: pharmtrack
               },
               {
                 title: "EchoNITES",
                 description: "Event management platform with tracking and scheduling features",
-                image: "SeminarLearnings/src/images/echonites.png"
+                image: echonites
               },
               {
                 title: "Graduate School Exam System",
                 description: "Comprehensive examination system for graduate school applicants",
-                image: "SeminarLearnings/src/images/graduate.png"
+                image: graduate
               }
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden border-gray-200 group">

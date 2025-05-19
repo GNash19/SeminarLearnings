@@ -2,6 +2,11 @@
 import React from "react";
 import Layout from "./Layout";
 import { Camera, Image as ImageIcon, Album, BookOpen } from "lucide-react";
+import sempic1_1 from '@/assets/images/sempic-1-1.jpg';
+import sempic1_2 from '@/assets/images/sempic-1-2.jpg';
+import sempic1_3 from '@/assets/images/sempic-1-3.jpg';
+import sempic1_4 from '@/assets/images/sempic-1-4.jpg';
+import sempic1_5 from '@/assets/images/sempic-1-5.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -11,11 +16,11 @@ const Documentation: React.FC = () => {
       title: "Navigating Software Development in the Industry",
       date: "May 17, 2023",
       images: [
-        "/src/images/sempic-1-4.jpg",
-        "/src/images/sempic-1-1.jpg",
-        "/src/images/sempic-1-3.jpg",
-        "/src/images/sempic-1-2.jpg",
-        "/src/images/sempic-1-5.jpg"
+        sempic1_1,
+        sempic1_2,
+        sempic1_3,
+        sempic1_4,
+        sempic1_5
       ]
     }
   ];
@@ -48,7 +53,7 @@ const Documentation: React.FC = () => {
           Documented moments from various seminars, workshops, and tours throughout my Seminars, Workshops, and Tours class.
           </p>
         </section>
-
+    
         {/* Gallery Grid */}
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {shuffledImages.map((item, index) => (

@@ -5,6 +5,7 @@ import {
   BookOpen, Code, Cpu, GitBranch, Globe, GraduationCap, 
   Layers3, MessageSquare, Mic, Monitor, ScrollText, Slack, TrendingUp, Users 
 } from "lucide-react";
+import ned from '@/assets/images/ned.jpg';
 
 const Seminar1: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const Seminar1: React.FC = () => {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-200 mb-3">
               <img 
-                src="/images/ned.jpg" 
+                src={ned}
                 alt="Sir Ned Isaiah Palacios"
                 className="w-full h-full object-cover"
               />
