@@ -172,17 +172,17 @@ const About: React.FC = () => {
               {
                 title: "PharmTrack",
                 description: "Inventory management system for pharmacies with receipt generation capabilities",
-                image: "/src/images/pharmtrack.png"
+                image: "SeminarLearnings/src/images/pharmtrack.png"
               },
               {
                 title: "EchoNITES",
                 description: "Event management platform with tracking and scheduling features",
-                image: "/src/images/echonites.png"
+                image: "SeminarLearnings/src/images/echonites.png"
               },
               {
                 title: "Graduate School Exam System",
                 description: "Comprehensive examination system for graduate school applicants",
-                image: "/src/images/graduate.png"
+                image: "SeminarLearnings/src/images/graduate.png"
               }
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden border-gray-200 group">
