@@ -13,7 +13,7 @@ const About: React.FC = () => {
           <div className="md:col-span-1 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-200 mb-4">
               <img 
-                src="src/images/me.png" 
+                src="/src/images/me.png" 
                 alt="Nash T. Golosino"
                 className="w-full h-full object-cover"
               />
@@ -172,17 +172,17 @@ const About: React.FC = () => {
               {
                 title: "PharmTrack",
                 description: "Inventory management system for pharmacies with receipt generation capabilities",
-                image: "src/images/pharmtrack.png"
+                image: "/src/images/pharmtrack.png"
               },
               {
                 title: "EchoNITES",
                 description: "Event management platform with tracking and scheduling features",
-                image: "src/images/echonites.png"
+                image: "/src/images/echonites.png"
               },
               {
                 title: "Graduate School Exam System",
                 description: "Comprehensive examination system for graduate school applicants",
-                image: "src/images/graduate.png"
+                image: "/src/images/graduate.png"
               }
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden border-gray-200 group">

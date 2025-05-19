@@ -11,11 +11,11 @@ const Documentation: React.FC = () => {
       title: "Navigating Software Development in the Industry",
       date: "May 17, 2023",
       images: [
-        "src/images/sempic-1-4.jpg",
-        "src/images/sempic-1-1.jpg",
-        "src/images/sempic-1-3.jpg",
-        "src/images/sempic-1-2.jpg",
-        "src/images/sempic-1-5.jpg"
+        "/src/images/sempic-1-4.jpg",
+        "/src/images/sempic-1-1.jpg",
+        "/src/images/sempic-1-3.jpg",
+        "/src/images/sempic-1-2.jpg",
+        "/src/images/sempic-1-5.jpg"
       ]
     }
   ];
