@@ -44,7 +44,7 @@ const Home: React.FC = () => {
             </div>
             <div className="relative h-64 md:h-80 bg-gray-200 overflow-hidden rounded">
               <img 
-                src="src/images/homeback.jpg" 
+                src="/src/images/homeback.jpg" 
                 alt="Computer Science Student"
                 className="absolute inset-0 w-full h-full object-cover"
               />
