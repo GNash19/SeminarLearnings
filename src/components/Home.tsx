@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       date: "May 17, 2023",
       speaker: "Sir Ned Isaiah Palacios",
       description: "Learning how the industry works and how to get there.",
-      image: "src/images/seminar1.jpg"
+      image: "/src/images/seminar1.jpg"
     }
   ];
 

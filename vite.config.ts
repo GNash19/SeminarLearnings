@@ -6,6 +6,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   base: '/SeminarLearnings/',
+  build: {
+    assetsDir: 'assets',
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
