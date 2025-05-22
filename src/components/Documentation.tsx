@@ -6,7 +6,13 @@ import sempic1_1 from '@/assets/images/sempic-1-1.jpg';
 import sempic1_2 from '@/assets/images/sempic-1-2.jpg';
 import sempic1_3 from '@/assets/images/sempic-1-3.jpg';
 import sempic1_4 from '@/assets/images/sempic-1-4.jpg';
-import sempic1_5 from '@/assets/images/sempic-1-5.jpg';
+import sempic2_1 from '@/assets/images/seminar-2-1.jpg';
+import sempic2_2 from '@/assets/images/seminar-2-2.jpg';
+import sempic2_3 from '@/assets/images/seminar-2-3.jpg';
+import sempic2_4 from '@/assets/images/seminar-2-4.jpg';
+import sempic3_1 from '@/assets/images/seminar-3-1.jpg';
+import sempic3_2 from '@/assets/images/seminar-3-2.jpg';
+import sempic3_3 from '@/assets/images/seminar-3-3.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -14,13 +20,33 @@ const Documentation: React.FC = () => {
     {
       id: 1,
       title: "Navigating Software Development in the Industry",
-      date: "May 17, 2023",
+      date: "May 17, 2025",
       images: [
         sempic1_1,
         sempic1_2,
         sempic1_3,
-        sempic1_4,
-        sempic1_5
+        sempic1_4
+      ]
+    },
+    {
+      id: 2,
+      title: "Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool",
+      date: "May 21, 2025",
+      images: [
+        sempic2_1,
+        sempic2_2,
+        sempic2_3,
+        sempic2_4
+      ]
+    },
+    {
+      id: 3,
+      title: "Research 101: Conference Presentation & Funding Techniques",
+      date: "May 22, 2025",
+      images: [
+        sempic3_1,
+        sempic3_2,
+        sempic3_3,
       ]
     }
   ];
@@ -39,7 +65,7 @@ const Documentation: React.FC = () => {
 
   return (
     <Layout>
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">

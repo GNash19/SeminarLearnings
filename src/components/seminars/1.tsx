@@ -3,15 +3,15 @@ import React from "react";
 import Layout from "../Layout";
 import { 
   BookOpen, Code, Cpu, GitBranch, Globe, GraduationCap, 
-  Layers3, MessageSquare, Mic, Monitor, ScrollText, Slack, TrendingUp, Users 
+  Layers3, MessageSquare, Mic, Monitor, ScrollText, Slack, TrendingUp, Users, Briefcase
 } from "lucide-react";
 import ned from '@/assets/images/ned.jpg';
 
 const Seminar1: React.FC = () => {
   return (
     <Layout>
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
-        <section className="mb-12 text-center">
+      <div className="container mx-auto px-5 py-12 max-w-5xl mt-16">
+        <section className="mb-16 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
             <Mic className="w-4 h-4 text-gray-700" />
             <span className="text-sm font-medium">Seminar #1</span>
@@ -20,21 +20,31 @@ const Seminar1: React.FC = () => {
             Navigating <span className="font-medium">Software Development</span> in the Industry
           </h1>
           <div className="flex flex-col items-center">
-            <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-200 mb-3">
+            <div className="w-48 h-48 rounded-full overflow-hidden border-2 border-gray-200 mb-3">
               <img 
                 src={ned}
                 alt="Sir Ned Isaiah Palacios"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h2 className="text-xl font-medium">Sir Ned Isaiah Palacios</h2>
-            <p className="text-gray-600 max-w-md">
-              CCS Alumnus Batch 2024 | Software Engineer @ Norg.ai | Tech Community Builder
-            </p>
+            <h2 className="text-2xl font-medium">Sir Ned Isaiah Palacios</h2>
+            <div className="flex flex-col items-center space-y-2 mt-2">
+              <div className="flex items-center gap-2 text-gray-600">
+                <GraduationCap className="w-4 h-4" />
+                <span>CCS Alumnus Batch 2024</span>
+              </div>
+              <div className="flex items-center gap-2 text-gray-600">
+                <Briefcase className="w-4 h-4" />
+                <span>Software Engineer @ Norg.ai</span>
+              </div>
+              <div className="flex items-center gap-2 text-gray-600">
+                <Users className="w-4 h-4" />
+                <span>Tech Community Builder</span>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Speaker Journey */}
         <section className="mb-16">
           <h2 className="text-2xl font-light mb-6 flex items-center gap-2">
             <ScrollText className="w-5 h-5" />
@@ -70,7 +80,7 @@ const Seminar1: React.FC = () => {
                 {
                   icon: <Code className="w-5 h-5 text-gray-700" />,
                   title: "The Interview Challenge",
-                  content: "Faced with tough technical questions but demonstrated problem-solving skills"
+                  content: "Faced with tough technical questions but demonstrated problem-solving skills. He got the job!"
                 }
               ].map((item, index) => (
                 <div key={index} className="relative pl-12">
@@ -204,7 +214,7 @@ const Seminar1: React.FC = () => {
               The emphasis on <span className="font-medium">portfolio building</span> resonated deeply with me. Rather than just completing assignments, I now understand the value of creating projects that solve real problems and showcase my growing skillset.
             </p>
             <p className="text-justify">
-              Most importantly, I learned that the developer's toolkit extends beyond code editors—it includes <span className="font-medium">communication platforms</span>, <span className="font-medium">collaboration workflows</span>, and <span className="font-medium">continuous learning</span> habits that make professionals effective in distributed teams.
+              Most importantly, I learned that the developer's toolkit extends beyond code editors—it includes <span className="font-medium">communication platforms</span>, <span className="font-medium">collaboration workflows</span>, and <span className="font-medium">continuous learning habits</span> that make professionals effective in distributed teams.
             </p>
           </div>
         </section>

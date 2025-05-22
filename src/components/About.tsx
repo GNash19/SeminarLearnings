@@ -13,7 +13,7 @@ const About: React.FC = () => {
     <Layout>
       <div className="container mx-auto px-4 py-12">
         {/* Profile Section */}
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 mt-16">
           <div className="md:col-span-1 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-200 mb-4">
               <img 

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Layout from './Layout';
 import seminar1 from '@/assets/images/seminar1.jpg';
+import seminar2 from '@/assets/images/Seminar2.jpg';
+import seminar3 from '@/assets/images/seminar3.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
@@ -10,16 +12,32 @@ const Home: React.FC = () => {
     {
       id: 1,
       title: "Navigating Software Development in the Industry",
-      date: "May 17, 2023",
+      date: "May 17, 2025",
       speaker: "Sir Ned Isaiah Palacios",
       description: "Learning how the industry works and how to get there.",
       image: seminar1
+    },
+    {
+      id: 2,
+      title: "Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool",
+      date: "May 21, 2025",
+      speaker: "Sir Carlo Castro",
+      description: "Exploring ways in improving audio processing and transcription.",
+      image: seminar2
+    },
+    {
+      id: 3,
+      title: "Research 101: Conference Presentation & Funding Techniques",
+      date: "May 22 2025",
+      speaker: "Sir Cris John David Manero",
+      description: "Learning how to present your research and get funding for it.",
+      image: seminar3
     }
   ];
-
+  
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50 text-gray-900 font-sans">
+      <div className="min-h-screen bg-gray-50 text-gray-900 font-sans mt-16">
         <main className="container mx-auto p-8 space-y-12">
           <section className="py-12 border-b border-gray-200">
             <div className="max-w-3xl mx-auto text-center">
