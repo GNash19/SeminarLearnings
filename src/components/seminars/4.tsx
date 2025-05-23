@@ -27,7 +27,7 @@ const Seminar4: React.FC = () => {
             Collaboration for Therapists and Carers
           </p>
         </section>
-
+      
         {/* Speaker Profile */}
         <section className="mb-16 flex flex-col md:flex-row gap-8 items-center">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-200">

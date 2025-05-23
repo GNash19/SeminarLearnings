@@ -36,7 +36,7 @@ const Home: React.FC = () => {
     },
     {
       id: 4,
-      title: "TherapEase: A Healthcare App for Mental Health",
+      title: "TherapEase: A Healthcare App for Therapists and Children",
       date: "May 23, 2025",
       speaker: "Mr. Hizon B. Caja",
       description: "A seminar on exploring a therapy healthcare app.",
