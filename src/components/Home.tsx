@@ -4,6 +4,7 @@ import Layout from './Layout';
 import seminar1 from '@/assets/images/seminar1.jpg';
 import seminar2 from '@/assets/images/Seminar2.jpg';
 import seminar3 from '@/assets/images/seminar3.jpg';
+import seminar4 from '@/assets/images/seminar4.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
@@ -13,7 +14,7 @@ const Home: React.FC = () => {
       id: 1,
       title: "Navigating Software Development in the Industry",
       date: "May 17, 2025",
-      speaker: "Sir Ned Isaiah Palacios",
+      speaker: "Mr. Ned Isaiah Palacios",
       description: "Learning how the industry works and how to get there.",
       image: seminar1
     },
@@ -21,17 +22,25 @@ const Home: React.FC = () => {
       id: 2,
       title: "Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool",
       date: "May 21, 2025",
-      speaker: "Sir Carlo Castro",
+      speaker: "Mr. Carlo Castro",
       description: "Exploring ways in improving audio processing and transcription.",
       image: seminar2
     },
     {
       id: 3,
       title: "Research 101: Conference Presentation & Funding Techniques",
-      date: "May 22 2025",
-      speaker: "Sir Cris John David Manero",
+      date: "May 22, 2025",
+      speaker: "Mr. Cris John David Manero",
       description: "Learning how to present your research and get funding for it.",
       image: seminar3
+    },
+    {
+      id: 4,
+      title: "TherapEase: A Healthcare App for Mental Health",
+      date: "May 23, 2025",
+      speaker: "Mr. Hizon B. Caja",
+      description: "A seminar on exploring a therapy healthcare app.",
+      image: seminar4
     }
   ];
   

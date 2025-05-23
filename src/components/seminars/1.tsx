@@ -211,7 +211,7 @@ const Seminar1: React.FC = () => {
               This seminar revealed that success in tech isn't just about technical skills—it's about <span className="font-medium">problem-solving</span>, <span className="font-medium">adaptability</span>, and <span className="font-medium">community</span>. Sir Ned's journey from student to professional demonstrated how embracing challenges (like learning LangChain under pressure) can open unexpected doors. Furthermore, I learned that perseverance and a willingness to learn are key to overcoming obstacles in the tech world.
             </p>
             <p className="text-justify">
-              The emphasis on <span className="font-medium">portfolio building</span> resonated deeply with me. Rather than just completing assignments, I now understand the value of creating projects that solve real problems and showcase my growing skillset.
+              The emphasis on <span className="font-medium">portfolio building</span> resonated with me. Rather than just completing assignments, I now understand the value of creating projects that solve real problems and showcase my growing skillset. It gives companies a glimpse into my capabilities and potential.
             </p>
             <p className="text-justify">
               Most importantly, I learned that the developer's toolkit extends beyond code editors—it includes <span className="font-medium">communication platforms</span>, <span className="font-medium">collaboration workflows</span>, and <span className="font-medium">continuous learning habits</span> that make professionals effective in distributed teams.

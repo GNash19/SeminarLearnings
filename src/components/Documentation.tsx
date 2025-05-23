@@ -13,6 +13,10 @@ import sempic2_4 from '@/assets/images/seminar-2-4.jpg';
 import sempic3_1 from '@/assets/images/seminar-3-1.jpg';
 import sempic3_2 from '@/assets/images/seminar-3-2.jpg';
 import sempic3_3 from '@/assets/images/seminar-3-3.jpg';
+import sempic4_1 from '@/assets/images/seminar-4-1.jpg';
+import sempic4_2 from '@/assets/images/seminar-4-2.jpg';
+import sempic4_3 from '@/assets/images/seminar-4-3.jpg';
+import sempic4_4 from '@/assets/images/seminar-4-4.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -46,7 +50,18 @@ const Documentation: React.FC = () => {
       images: [
         sempic3_1,
         sempic3_2,
-        sempic3_3,
+        sempic3_3
+      ]
+    },
+    {
+      id: 4,
+      title: "TherapEase: Bridging & Fostering Therapy Collaboration for Therapists and Carers",
+      date: "May 22, 2025",
+      images: [
+        sempic4_1,
+        sempic4_2,
+        sempic4_3,
+        sempic4_4
       ]
     }
   ];
