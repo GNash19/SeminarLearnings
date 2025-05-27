@@ -91,7 +91,7 @@ const Seminar6: React.FC = () => {
             </h2>
             <div className="prose prose-gray max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                The current academic system often treats research as a compliance exercise rather than a springboard for innovation. Students develop solutions to real problems through coursework, yet these ideas rarely progress beyond prototype stage due to systemic limitations.
+                Students often treats research as a compliance exercise rather than a springboard for innovation. Although students develop systems as part of their coursework, they often don't see these ideas as something that can be commercialized or used to solve real problems in the community, as they are not trained to identify the commercial value of their ideas.
               </p>
               
               <div className="my-6 p-6 bg-gray-50 border-l-4 border-gray-400">
