@@ -292,9 +292,6 @@ const Seminar2: React.FC = () => {
   );
 };
 
-// Card components remain the same as previous example
-
-// Simple Card component (replace with your actual Card component if different)
 const Card: React.FC<{ className?: string; children: React.ReactNode }> = ({ className, children }) => {
   return (
     <div className={`bg-white rounded-lg shadow-sm border ${className}`}>

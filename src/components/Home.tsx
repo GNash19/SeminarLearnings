@@ -6,10 +6,10 @@ import seminar2 from '@/assets/images/Seminar2.jpg';
 import seminar3 from '@/assets/images/seminar3.jpg';
 import seminar4 from '@/assets/images/seminar4.jpg';
 import seminar5 from '@/assets/images/seminar5.jpg';
+import seminar6 from '@/assets/images/seminar6.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
-  // Dummy seminar data
   const seminars = [
     {
       id: 1,
@@ -51,6 +51,14 @@ const Home: React.FC = () => {
       description: "Understanding the fundamentals of software engineering research projects.",
       image: seminar5
     },
+    {
+      id: 6,
+      title: "Bridging Academia and Startup Innovation",
+      date: "May 27, 2025",
+      speaker: "Mr. Ceasar Ian P. Benablo",
+      description: "Exploring the intersection of academic research and startup innovation.",
+      image: seminar6
+    }
   ];
   
   return (

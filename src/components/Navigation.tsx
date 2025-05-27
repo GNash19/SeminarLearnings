@@ -13,13 +13,13 @@ const Navigation: React.FC = () => {
   const mobileMenuRef = useRef<HTMLDivElement>(null);
   let closeTimer: NodeJS.Timeout;
 
-  // Dummy seminar data
   const seminars = [
     { id: 1, title: "Navigating Software Development" },
     { id: 2, title: "Enhancing Audio Processing" },
     { id: 3, title: "Research Techniques" },
     { id: 4, title: "TherapEase: A Healthcare App" },
-    { id: 5, title: "Ins and Outs of Research Project" }
+    { id: 5, title: "Ins and Outs of Research Project" },
+    { id: 6, title: "Academia and Innovation" }
   ];
 
   // Scroll direction detection

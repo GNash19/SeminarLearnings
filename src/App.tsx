@@ -8,6 +8,7 @@ import Seminar2 from "./components/seminars/2";
 import Seminar3 from "./components/seminars/3";
 import Seminar4 from "./components/seminars/4";
 import Seminar5 from "./components/seminars/5";
+import Seminar6 from "./components/seminars/6";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/seminars/3" element={<Seminar3 />} />
         <Route path="/seminars/4" element={<Seminar4 />} />
         <Route path="/seminars/5" element={<Seminar5 />} />
+        <Route path="/seminars/6" element={<Seminar6 />} />
         <Route path="/documentation" element={<Documentation />} />
         {/* Add 404 fallback */}
         <Route path="*" element={<Home />} />

@@ -21,6 +21,9 @@ import sempic5_1 from '@/assets/images/sempic-5-1.jpg';
 import sempic5_2 from '@/assets/images/sempic-5-2.jpg';
 import sempic5_3 from '@/assets/images/sempic-5-3.jpg';
 import sempic5_4 from '@/assets/images/sempic-5-4.jpg';
+import sempic6_4 from '@/assets/images/sempic-6-4.jpg';
+import sempic6_5 from '@/assets/images/sempic-6-5.jpg';
+import sempic6_6 from '@/assets/images/sempic-6-6.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -77,6 +80,16 @@ const Documentation: React.FC = () => {
         sempic5_2,
         sempic5_3,
         sempic5_4
+      ]
+    },
+    {
+      id: 6,
+      title: "Bridging Academia and Startup Innovation",
+      date: "May 27, 2025",
+      images: [
+        sempic6_4,
+        sempic6_5,
+        sempic6_6
       ]
     }
   ];
