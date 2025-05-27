@@ -17,6 +17,10 @@ import sempic4_1 from '@/assets/images/seminar-4-1.jpg';
 import sempic4_2 from '@/assets/images/seminar-4-2.jpg';
 import sempic4_3 from '@/assets/images/seminar-4-3.jpg';
 import sempic4_4 from '@/assets/images/seminar-4-4.jpg';
+import sempic5_1 from '@/assets/images/sempic-5-1.jpg';
+import sempic5_2 from '@/assets/images/sempic-5-2.jpg';
+import sempic5_3 from '@/assets/images/sempic-5-3.jpg';
+import sempic5_4 from '@/assets/images/sempic-5-4.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -62,6 +66,17 @@ const Documentation: React.FC = () => {
         sempic4_2,
         sempic4_3,
         sempic4_4
+      ]
+    },
+    {
+      id: 5,
+      title: "Research 101: The Ins and Outs of Software Engineering Research Project",
+      date: "May 26, 2025",
+      images: [
+        sempic5_1,
+        sempic5_2,
+        sempic5_3,
+        sempic5_4
       ]
     }
   ];

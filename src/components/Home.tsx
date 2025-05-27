@@ -5,6 +5,7 @@ import seminar1 from '@/assets/images/seminar1.jpg';
 import seminar2 from '@/assets/images/Seminar2.jpg';
 import seminar3 from '@/assets/images/seminar3.jpg';
 import seminar4 from '@/assets/images/seminar4.jpg';
+import seminar5 from '@/assets/images/seminar5.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
@@ -41,7 +42,15 @@ const Home: React.FC = () => {
       speaker: "Mr. Hizon B. Caja",
       description: "A seminar on exploring a therapy healthcare app.",
       image: seminar4
-    }
+    },
+    {
+      id: 5,
+      title: "Research 101: The Ins and Outs of Software Engineering Research Project",
+      date: "May 26, 2025",
+      speaker: "Ms. Shenna Rhea Cloribel",
+      description: "Understanding the fundamentals of software engineering research projects.",
+      image: seminar5
+    },
   ];
   
   return (

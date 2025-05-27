@@ -18,7 +18,8 @@ const Navigation: React.FC = () => {
     { id: 1, title: "Navigating Software Development" },
     { id: 2, title: "Enhancing Audio Processing" },
     { id: 3, title: "Research Techniques" },
-    { id: 4, title: "TherapEase: A Healthcare App" }
+    { id: 4, title: "TherapEase: A Healthcare App" },
+    { id: 5, title: "Ins and Outs of Research Project" }
   ];
 
   // Scroll direction detection
