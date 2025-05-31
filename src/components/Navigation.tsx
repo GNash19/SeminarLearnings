@@ -19,7 +19,8 @@ const Navigation: React.FC = () => {
     { id: 3, title: "Research Techniques" },
     { id: 4, title: "TherapEase: A Healthcare App" },
     { id: 5, title: "Ins and Outs of Research Project" },
-    { id: 6, title: "Academia and Innovation" }
+    { id: 6, title: "Academia and Innovation" },
+    { id: 7, title: "Prompt Engineering" }
   ];
 
   // Scroll direction detection
@@ -139,6 +140,10 @@ const Navigation: React.FC = () => {
               </div>
             )}
           </div>
+
+          <Link to="/tour" className="text-sm uppercase tracking-wider hover:text-gray-300 transition-colors">
+            Tour
+          </Link>
 
           <Link to="/documentation" className="text-sm uppercase tracking-wider hover:text-gray-300 transition-colors">
             Documentation

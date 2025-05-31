@@ -4,7 +4,7 @@ import Layout from "../Layout";
 import { 
   BookOpen, Briefcase, Clock, Compass, 
   FileText, Globe, GraduationCap, Layers, Lightbulb, 
-  Map, PieChart, Rocket, Settings, TrendingUp, Users 
+  Map, PieChart, Rocket, Settings, TrendingUp, Users, MessageCircleCode
 } from "lucide-react";
 import sempic6_1 from '@/assets/images/sempic-6-1.jpg';
 import sempic6_2 from '@/assets/images/sempic-6-2.jpg';
@@ -268,6 +268,24 @@ const Seminar6: React.FC = () => {
                   Each student's innovative potential represents a step toward national progress. The transformation from compliance-driven to impact-focused research begins with your idea.
                 </p>
               </div>
+            </div>
+          </section>
+
+          <section className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+            <h2 className="text-2xl font-light mb-4 flex items-center gap-2">
+              <MessageCircleCode className="w-5 h-5" />
+              <span>My <span className="font-medium">Takeaways</span></span>
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <p className="text-justify">
+                The final seminar struck a personal chord with me as <span className="font-medium">Mr. Ceasar Ian P. Benablo</span>, our CCS Dean and Marian Incubator Manager, asked a simple yet powerful question: <span className="font-medium">“What’s your end goal?”</span> At first, I chuckled—of course I want to master coding, graduate, and get rich, but the deeper message was clear: we should be aiming for impact. He challenged us to shift our mindset from <span className="font-medium">research as mere compliance</span> to <span className="font-medium">research as utilization</span>. Too often, we treat projects as requirements to pass, not as opportunities to address real-world problems.
+              </p>
+              <p className="text-justify">
+                Mr. Benablo walked us through a roadmap: from <span className="font-medium">research</span> that identifies societal gaps, to <span className="font-medium">prototyping</span> solutions, to <span className="font-medium">customer validation</span> that tests practicality, and finally to <span className="font-medium">utilization</span>—the ultimate goal. Yet sadly, most student projects stop at the prototype. We’re missing out on <span className="font-medium">commercializing innovations</span> because the mindset just isn’t there. He emphasized that change starts with a <span className="font-medium">shift in mindset</span>: we need to foster an <span className="font-medium">entrepreneurial spirit</span> in students, empower teachers, and connect deeply with our communities.
+              </p>
+              <p className="text-justify">
+                What inspired me most was his vision of the future—where schools, government, and industries work together to make innovation flourish. He called for <span className="font-medium">accessible funding</span>, <span className="font-medium">collaborative public spaces</span>, and <span className="font-medium">incentives for startups</span>. As someone aspiring to make a difference through tech, I felt that challenge deeply. <span className="font-medium">We are heading toward innovation, startup development, and commercialization</span>—and I want to be part of that. As Sir Benablo powerfully said, <span className="font-medium">"Change the Philippines one step at a time, and it starts with you."</span>
+              </p>
             </div>
           </section>
         </div>

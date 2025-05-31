@@ -5,7 +5,7 @@ import {
   BookOpen, ClipboardCheck, FileText, GitMerge, Globe, 
   Lock, MessageSquare, Monitor, Shield,
   TrendingUp, Users, AlertTriangle, BarChart2, 
-  Calendar, CheckCircle, Clock, Code, Database, Mic
+  Calendar, CheckCircle, Clock, Code, Database, Mic, MessageCircleCode
 } from "lucide-react";
 import shen from "@/assets/images/shen.jpg";
 
@@ -285,6 +285,24 @@ const Seminar5: React.FC = () => {
                   <span>Obtain IRB approval before data collection</span>
                 </div>
               </div>
+            </div>
+          </section>
+
+          <section className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+            <h2 className="text-2xl font-light mb-4 flex items-center gap-2">
+              <MessageCircleCode className="w-5 h-5" />
+              <span>My <span className="font-medium">Takeaways</span></span>
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <p className="text-justify">
+                Our fifth seminar guided us through the core of what it truly means to conduct a sound and ethical research project. Truly, her perspective was grounded yet empowering. The discussion began with the importance of <span className="font-medium">questionnaire validation</span>, emphasizing tools like <span className="font-medium">Unified Theory of Acceptance and Use of Technology</span> (UTAUT) and <span className="font-medium">Total Addressable Market</span> (TAM). I realized how crucial it is not only to prepare questionnaires but to ensure that they meet academic standards. Even simple elements like <span className="font-medium">highlighting changes in documents</span> or <span className="font-medium">recording panel discussions</span> play a big role in streamlining the revision process.
+              </p>
+              <p className="text-justify">
+                The emphasis on the <span className="font-medium">ethical dimensions of research</span> strucked me the most for this seminar. Too often, we focus so much on getting the system to work that we forget the people it’s built for. Ma’am Shenna reminded us that research must align with <span className="font-medium">social value and community involvement</span>. Anchoring our topics on frameworks like <span className="font-medium">UN SDG</span> and <span className="font-medium">NUHRA</span> is not just a suggestion—it’s a responsibility. I was reminded of the importance of <span className="font-medium">informed consent</span>, respecting the <span className="font-medium">vulnerability of participants</span>, and ensuring <span className="font-medium">privacy and safety</span> in all aspects of data collection. These are not just requirements;  they are ethical commitments that define the integrity of our work.
+              </p>
+              <p className="text-justify">
+                Lastly, we were shown a sample project, <span className="font-medium">Repro</span>, which bridges gaps in sexual and reproductive health (SRH) services for youth through chat-based innovation. I admired how the project responded to a real societal need while also acknowledging the challenge of balancing academics with development. It made me reflect on how research should not only be functional, but also impactful. As I prepare for my own research, I now feel more confident in understanding not just the technical, but the moral and social weight that research carries. This seminar was more than informative—it was a call to pursue research that is <span className="font-medium">intentional, ethical, and community-centered</span>.
+              </p>
             </div>
           </section>
         </div>

@@ -24,6 +24,10 @@ import sempic5_4 from '@/assets/images/sempic-5-4.jpg';
 import sempic6_4 from '@/assets/images/sempic-6-4.jpg';
 import sempic6_5 from '@/assets/images/sempic-6-5.jpg';
 import sempic6_6 from '@/assets/images/sempic-6-6.jpg';
+import sempic7_1 from '@/assets/images/sempic-7-1.jpg';
+import sempic7_2 from '@/assets/images/sempic-7-2.jpg';
+import sempic7_3 from '@/assets/images/sempic-7-3.jpg';
+import sempic7_4 from '@/assets/images/sempic-7-4.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -90,6 +94,17 @@ const Documentation: React.FC = () => {
         sempic6_4,
         sempic6_5,
         sempic6_6
+      ]
+    },
+    {
+      id: 6,
+      title: "Prompt Engineering",
+      date: "May 28, 2025",
+      images: [
+        sempic7_1,
+        sempic7_2,
+        sempic7_3,
+        sempic7_4
       ]
     }
   ];

@@ -4,7 +4,7 @@ import Layout from "../Layout";
 import { 
   BookOpen, Code, Cpu, Database, FileText, Headphones, 
   Languages, Mic, Users, GraduationCap,
-  Award, Book, ClipboardList, CpuIcon, GitBranch, Globe, Layers
+  Award, Book, ClipboardList, CpuIcon, GitBranch, Globe, Layers, MessageCircleCode
 } from "lucide-react";
 
 import carlo from "@/assets/images/carlo.jpg";
@@ -284,6 +284,24 @@ const Seminar2: React.FC = () => {
                 <h3 className="font-medium mb-2">Model Architecture</h3>
                 <p className="text-sm text-gray-700">Exploring transformer-based models for improved accuracy</p>
               </div>
+            </div>
+          </section>
+
+          <section className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+            <h2 className="text-2xl font-light mb-4 flex items-center gap-2">
+              <MessageCircleCode className="w-5 h-5" />
+              <span>My <span className="font-medium">Takeaways</span></span>
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <p className="text-justify">
+                Mr. Carlo Castro’s presentation on their technical research paper, which they started in their third year and later showcased at the Philippine Computing Science Conference, gave me a compelling insight into the intersection of artificial intelligence and cultural preservation. Their project, aimed at improving the language classification accuracy of the SultiWag initiative, resonated deeply with me—especially when I learned that it was inspired by a real-world encounter between a nurse and an elderly woman who couldn’t understand each other due to a language barrier. That simple but profound moment of miscommunication became a turning point that led their team to <span className="font-medium">build a more inclusive AI system</span>. By focusing on indigenous languages such as Manobo and Kagan and refining their audio data pre-processing, they were able to increase classification accuracy from 70% to 83%. It reminded me how <span className="font-medium">technology can preserve identity, memory, and culture</span> when used intentionally. 
+              </p>
+              <p className="text-justify">
+                What struck me most was their systematic and thoughtful approach in developing the language classification model. They didn't just chase performance metrics—they integrated <span className="font-medium">ethical considerations</span> throughout the process. I admired how they engaged directly with indigenous communities, secured proper consent, and prioritized quality and diversity in their audio data. Their data pipeline—from converting MP3 files to using the MinNa Transcriber Tool and extracting metadata—showed the power of <span className="font-medium">streamlining workflows for better model performance</span>. I was particularly fascinated by how they challenged the typical practice of saving spectrograms as image files and instead implemented direct spectrogram extraction. That small shift significantly improved accuracy and efficiency, teaching me that <span className="font-medium">innovation often begins by questioning the norm</span>. 
+              </p>
+              <p className="text-justify">
+                More than the technical aspect, Mr. Castro's reflections on presenting their research made a lasting impression on me. He shared that the Q&A may be manageable, but the real challenge lies in the <span className="font-medium">ability to communicate, humanize, and defend a technical study</span>. That made me realize that doing research isn’t just about data or algorithms—it's also about <span className="font-medium">narrative, empathy, and clarity</span>. It reminded me that the drive to explore often begins with curiosity, but what sustains innovation is a deep sense of purpose. Seeing how they presented their work reinforced a valuable lesson for me: <span className="font-medium">research done with integrity where intelligence meets compassion. It is what truly makes an impact</span>.
+              </p>
             </div>
           </section>
         </div>

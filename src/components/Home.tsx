@@ -7,6 +7,7 @@ import seminar3 from '@/assets/images/seminar3.jpg';
 import seminar4 from '@/assets/images/seminar4.jpg';
 import seminar5 from '@/assets/images/seminar5.jpg';
 import seminar6 from '@/assets/images/seminar6.jpg';
+import seminar7 from '@/assets/images/seminar7.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 
 const Home: React.FC = () => {
@@ -58,6 +59,14 @@ const Home: React.FC = () => {
       speaker: "Mr. Ceasar Ian P. Benablo",
       description: "Exploring the intersection of academic research and startup innovation.",
       image: seminar6
+    },
+    {
+      id: 7,
+      title: "Prompt Engineering",
+      date: "May 28, 2025",
+      speaker: "Mr. Eric John Emberda",
+      description: "Understanding the principles and practices of prompt engineering in AI.",
+      image: seminar7
     }
   ];
   
@@ -67,7 +76,7 @@ const Home: React.FC = () => {
         <main className="container mx-auto p-8 space-y-12">
           <section className="py-12 border-b border-gray-200">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl font-light mb-4 tracking-tight"><span className="font-medium"> Seminars, Workshops, & Tours</span></h2>
+              <h2 className="text-5xl font-light mb-4 tracking-tight"><span className="font-medium"> Seminars, Workshops, & Tours</span></h2>
               <p className="text-gray-600 text-lg">Documented learning experiences from industry leaders and academic pioneers</p>
             </div>
           </section>

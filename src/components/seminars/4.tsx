@@ -6,7 +6,7 @@ import {
   Headphones, Layers, MessageSquare, Mic,
   Smartphone, Users, Video, Calendar, Map, 
   CheckCircle, CloudOff, Clock, Heart, 
-  Smile, Frown, GitMerge, GitPullRequest
+  Smile, Frown, GitMerge, GitPullRequest, MessageCircleCode
 } from "lucide-react";
 import caja from "@/assets/images/caja.jpg";
 
@@ -232,18 +232,21 @@ const Seminar4: React.FC = () => {
             </div>
           </section>
 
-          {/* Conclusion */}
           <section className="bg-gray-50 p-8 rounded-lg border border-gray-200">
-            <div className="flex items-start gap-4">
-              <div className="bg-white p-3 rounded-full shadow-sm">
-                <Heart className="w-6 h-6 text-gray-700" />
-              </div>
-              <div>
-                <h3 className="text-xl font-light mb-2">Final Reflection</h3>
-                <p className="text-gray-700">
-                  TherapEase stands as testament to the power of perseverance in software development. While the journey presented numerous technical and interpersonal challenges, the team's commitment to creating meaningful impact in the therapy community transformed obstacles into valuable learning experiences. The project underscored that successful development extends beyond code—it requires empathy for end-users, flexibility in problem-solving, and resilience in the face of setbacks. More importantly, we made memories that will last a lifetime, giving us happiness and joy in our hearts that we will cherish forever. 
-                </p>
-              </div>
+            <h2 className="text-2xl font-light mb-4 flex items-center gap-2">
+              <Heart className="w-5 h-5" />
+              <span>My <span className="font-medium">Takeaways</span></span>
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <p className="text-justify">
+                Attending the seminar of <span className="font-medium">Sir Hizon B. Caja</span> gave me a clearer picture of how meaningful a capstone project can become when it addresses real societal needs. Their project, <span className="font-medium">TherapEase</span>, stood out because it wasn’t just another healthcare app—it was specifically designed to assist therapists and carers of children with developmental delays. I found its features impressive: <span className="font-medium">video conferencing</span>, <span className="font-medium">offline therapy materials</span>, <span className="font-medium">session booking</span>, and even <span className="font-medium">therapist validation</span>. It was clear that they aimed to fill a gap that most general healthcare apps failed to address. Seeing how they embedded accessibility and collaboration into one platform inspired me to think about how technology can be used to bridge more personal and community-based needs.
+              </p>
+              <p className="text-justify">
+                As a developer-in-progress, I was particularly drawn to how they built the system. They used <span className="font-medium">Flutter and Dart</span> for the frontend, while outsourcing the <span className="font-medium">Node.js backend</span>. The process involved a lot of trial and error through <span className="font-medium">iterative design and testing</span>. But more than the technical details, what resonated with me were the challenges they faced—unresponsive therapy centers, backend limitations, time pressure, and even internal group disputes. These struggles felt real and familiar. Yet despite everything, they found ways to laugh, bond, and push through. That reminded me that development isn't just about the code—it’s about <span className="font-medium">resilience, empathy, and the people you work with</span>.
+              </p>
+              <p className="text-justify">
+                The lesson that truly took away from this seminar is that great projects are not always perfect—they are meaningful. I admired how they didn’t pretend everything went smoothly, but instead showed how growth came from the difficult parts. It made me realize that in my own future capstone, I need to prioritize both <span className="font-medium">technical strength</span> and <span className="font-medium">team dynamics</span>. I now see how important it is to ask for help, listen actively, and focus on creating solutions that matter. This session didn’t just teach me how to build systems—it reminded me why I chose this path in the first place.
+              </p>
             </div>
           </section>
         </div>
