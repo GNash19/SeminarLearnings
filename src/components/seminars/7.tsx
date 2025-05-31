@@ -10,12 +10,6 @@ import {
 import eric from "@/assets/images/eric.jpg"; // Assuming you have an image of the speaker
 
 const Seminar7: React.FC = () => {
-  const mlImages = [
-    "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
-    "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
-    "https://images.unsplash.com/photo-1629909613654-28e377c0b8ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
-  ];
-
   return (
     <Layout>
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">

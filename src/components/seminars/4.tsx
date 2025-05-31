@@ -6,7 +6,7 @@ import {
   Headphones, Layers, MessageSquare, Mic,
   Smartphone, Users, Video, Calendar, Map, 
   CheckCircle, CloudOff, Clock, Heart, 
-  Smile, Frown, GitMerge, GitPullRequest, MessageCircleCode
+  Smile, Frown, GitMerge, GitPullRequest
 } from "lucide-react";
 import caja from "@/assets/images/caja.jpg";
 
