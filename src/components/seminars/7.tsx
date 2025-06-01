@@ -7,7 +7,7 @@ import {
   Lightbulb, ListOrdered, Network, PieChart, 
   Rocket, Settings, Timer, MessageCircleCode
 } from "lucide-react";
-import eric from "@/assets/images/eric.jpg"; // Assuming you have an image of the speaker
+import eric from "@/assets/images/eric.jpg"; 
 
 const Seminar7: React.FC = () => {
   return (
@@ -363,7 +363,7 @@ const Seminar7: React.FC = () => {
             </h2>
             <div className="space-y-4 text-gray-700">
               <p className="text-justify">
-                Attending <span className="font-medium">Seminar 7 on Prompt Engineering</span> by <span className="font-medium">Sir Eric John Emberda</span> was truly eye-opening for me as a student. I never realized how versatile prompt engineering could be until he laid out its <span className="font-medium">use cases</span> in our daily academic life—from <span className="font-medium">coding and research</span> to <span className="font-medium">brainstorming, proofreading, and even time management</span>. What stood out to me was how AI can help us <span className="font-medium">summarize notes</span> or <span className="font-medium">review before an exam</span>, acting like a digital study partner.
+                Attending <span className="font-medium">Seminar 7 on Prompt Engineering</span> by <span className="font-medium">Sir Eric John Emberda</span> was truly eye-opening for me as a student. I never realized how versatile prompt engineering could be until he laid out its <span className="font-medium">use cases</span> in our daily academic life—from <span className="font-medium">coding and research</span> to <span className="font-medium">brainstorming, proofreading, and even time management</span>. What stood out to me was how AI can help us <span className="font-medium">provide interactive review materials</span> or <span className="font-medium">post tech-related contents</span>, acting like a digital study and media partner.
               </p>
               <p className="text-justify">
                 He also gave us a taste of <span className="font-medium">machine learning fundamentals</span>, starting with simple <span className="font-medium">mathematical modeling</span>. I understood better how input-output relationships work, especially through his example of <span className="font-medium">test scores vs. study hours</span>, which revealed a clear linear pattern. We explored the equation: <span className="font-medium">input x → model f(x) → output y</span>, helping me visualize the math behind AI.
