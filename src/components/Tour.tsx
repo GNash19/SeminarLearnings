@@ -83,7 +83,7 @@ const Tour: React.FC = () => {
             <Compass className="w-4 h-4 text-gray-600" />
             <span className="text-sm font-medium text-gray-900">INDUSTRY IMMERSION</span>
             <span className="text-sm text-gray-500">•</span>
-            <span className="text-sm font-normal text-gray-900">May 31, 2025</span>
+            <span className="text-sm font-normal text-gray-900">May 29, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             Media and Tech Innovation <span className="font-medium">Hub Tour</span>
