@@ -15,6 +15,12 @@ import tour7 from "@/assets/images/tour-7.jpg";
 import tour8 from "@/assets/images/tour-8.jpg";
 import tour9 from "@/assets/images/tour-9.jpg";
 import tour10 from "@/assets/images/tour-10.jpg";
+import tour11 from "@/assets/images/tour-11.jpg";
+import tour12 from "@/assets/images/tour-12.jpg";
+import tour13 from "@/assets/images/tour-13.jpg";
+import tour14 from "@/assets/images/tour-14.jpg";
+import tour15 from "@/assets/images/tour-15.jpg";
+import tour16 from "@/assets/images/tour-16.jpg";
 
 const Tour: React.FC = () => {
   const tourImages = [
@@ -27,7 +33,13 @@ const Tour: React.FC = () => {
     tour7,
     tour8,
     tour9,
-    tour10
+    tour10,
+    tour11,
+    tour12,
+    tour13,
+    tour14,
+    tour15,
+    tour16
   ];
 
   // Tour details
@@ -67,9 +79,11 @@ const Tour: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 py-12 mt-16">
         {/* Header Section */}
         <section className="mb-16 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Compass className="w-5 h-5 text-gray-700" />
-            <span className="text-sm font-medium uppercase tracking-wider">INDUSTRY IMMERSION</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 rounded-full mb-6 border">
+            <Compass className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">INDUSTRY IMMERSION</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 31, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             Media and Tech Innovation <span className="font-medium">Hub Tour</span>

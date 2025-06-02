@@ -1,6 +1,7 @@
 // src/seminars/6.tsx
 import React from "react";
 import Layout from "../Layout";
+import SeminarPagination from "../SeminarPagination";
 import { 
   BookOpen, Briefcase, Clock, Compass, 
   FileText, Globe, GraduationCap, Layers, Lightbulb, 
@@ -23,9 +24,11 @@ const Seminar6: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Rocket className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #6</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <Rocket className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">Seminar #6</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 27, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             Bridging <span className="font-medium">Academia and Startup Innovation</span>
@@ -83,7 +86,6 @@ const Seminar6: React.FC = () => {
 
         {/* Seminar Content */}
         <div className="space-y-16">
-          {/* Current Reality */}
           <section>
             <h2 className="text-2xl font-light mb-6 flex items-center gap-2">
               <Compass className="w-5 h-5" />
@@ -288,6 +290,13 @@ const Seminar6: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={6} // Current seminar number
+            totalSeminars={7} // Total number of seminars
+            seminarsPerPage={1} // Usually 1 seminar per page
+            basePath="/seminars" // Your base path
+          />
         </div>
       </div>
     </Layout>

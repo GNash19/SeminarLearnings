@@ -1,9 +1,10 @@
 // components/seminars/1.tsx
 import React from "react";
 import Layout from "../Layout";
+import SeminarPagination from "../SeminarPagination"
 import { 
-  BookOpen, Code, Cpu, GitBranch, Globe, GraduationCap, 
-  Layers3, MessageSquare, Mic, Monitor, ScrollText, Slack, TrendingUp, Users, Briefcase
+  BookOpen, Code, Cpu, GitBranch, Globe, GraduationCap, Navigation,
+  Layers3, MessageSquare, Monitor, ScrollText, Slack, TrendingUp, Users, Briefcase
 } from "lucide-react";
 import ned from '@/assets/images/ned.jpg';
 
@@ -12,9 +13,11 @@ const Seminar1: React.FC = () => {
     <Layout>
       <div className="container mx-auto px-5 py-12 max-w-5xl mt-16">
         <section className="mb-16 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Mic className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #1</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <Navigation className="w-4 h-4 text-gray-900" />
+            <span className="text-sm font-medium text-gray-900">Seminar #1</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 17, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             Navigating <span className="font-medium">Software Development</span> in the Industry
@@ -218,6 +221,13 @@ const Seminar1: React.FC = () => {
             </p>
           </div>
         </section>
+
+        <SeminarPagination 
+          currentPage={1} // Current seminar number
+          totalSeminars={7} // Total number of seminars
+          seminarsPerPage={1} // Usually 1 seminar per page
+          basePath="/seminars" // Your base path
+        />
       </div>
     </Layout>
   );

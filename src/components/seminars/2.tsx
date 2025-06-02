@@ -6,6 +6,7 @@ import {
   Languages, Mic, Users, GraduationCap,
   Award, Book, ClipboardList, CpuIcon, GitBranch, Globe, Layers, MessageCircleCode
 } from "lucide-react";
+import SeminarPagination from "../SeminarPagination";
 
 import carlo from "@/assets/images/carlo.jpg";
 
@@ -15,9 +16,11 @@ const Seminar2: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Mic className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #2</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <Mic className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">Seminar #2</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 21, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             Enhancing <span className="font-medium">Audio Processing:</span>
@@ -299,6 +302,13 @@ const Seminar2: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={2}
+            totalSeminars={7} 
+            seminarsPerPage={1}
+            basePath="/seminars" 
+          />
         </div>
       </div>
     </Layout>

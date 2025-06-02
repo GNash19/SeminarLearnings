@@ -1,11 +1,12 @@
 // src/seminars/5.tsx
 import React from "react";
 import Layout from "../Layout";
+import SeminarPagination from "../SeminarPagination";
 import { 
   BookOpen, ClipboardCheck, FileText, GitMerge, Globe, 
-  Lock, MessageSquare, Monitor, Shield,
+  Lock, MessageSquare, Monitor, Shield, ShieldCheck,
   TrendingUp, Users, AlertTriangle, BarChart2, 
-  Calendar, CheckCircle, Clock, Code, Database, Mic, MessageCircleCode
+  Calendar, CheckCircle, Clock, Code, Database, MessageCircleCode
 } from "lucide-react";
 import shen from "@/assets/images/shen.jpg";
 
@@ -15,9 +16,11 @@ const Seminar5: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Mic className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #5</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <ShieldCheck className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">Seminar #5</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 26, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
            <span className="font-medium">Research 101: The Ins and Outs</span> of
@@ -305,6 +308,13 @@ const Seminar5: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={5} // Current seminar number
+            totalSeminars={7} // Total number of seminars
+            seminarsPerPage={1} // Usually 1 seminar per page
+            basePath="/seminars" // Your base path
+          />
         </div>
       </div>
     </Layout>

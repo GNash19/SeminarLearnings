@@ -1,11 +1,12 @@
 // src/seminars/4.tsx
 import React from "react";
 import Layout from "../Layout";
+import SeminarPagination from "../SeminarPagination";
 import { 
   BookOpen, Code, Cpu, Database, 
-  Headphones, Layers, MessageSquare, Mic,
+  Headphones, Layers, MessageSquare, 
   Smartphone, Users, Video, Calendar, Map, 
-  CheckCircle, CloudOff, Clock, Heart, 
+  CheckCircle, CloudOff, Clock, Heart, HeartPlus,
   Smile, Frown, GitMerge, GitPullRequest
 } from "lucide-react";
 import caja from "@/assets/images/caja.jpg";
@@ -16,9 +17,11 @@ const Seminar4: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Mic className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #3</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <HeartPlus className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">Seminar #4</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 23, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             <span className="font-medium">TherapEase:</span> Bridging & Fostering
@@ -249,6 +252,13 @@ const Seminar4: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={4} // Current seminar number
+            totalSeminars={7} // Total number of seminars
+            seminarsPerPage={1} // Usually 1 seminar per page
+            basePath="/seminars" // Your base path
+          />
         </div>
       </div>
     </Layout>

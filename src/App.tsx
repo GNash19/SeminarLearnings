@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Seminar1 from "./components/seminars/1";
@@ -12,9 +12,24 @@ import Seminar5 from "./components/seminars/5";
 import Seminar6 from "./components/seminars/6";
 import Seminar7 from "./components/seminars/7";
 
+// ScrollToTop component
+const ScrollToTop: React.FC = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [pathname]);
+
+  return null;
+};
+
 const App: React.FC = () => {
   return (
     <Router basename="/SeminarLearnings">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

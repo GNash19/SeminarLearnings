@@ -1,6 +1,7 @@
 // src/seminars/7.tsx
 import React from "react";
 import Layout from "../Layout";
+import SeminarPagination from "../SeminarPagination";
 import { 
   BrainCircuit, Code, Cpu, FileText, 
   GitBranch, GraduationCap, Hash, Layers, 
@@ -15,15 +16,17 @@ const Seminar7: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <BrainCircuit className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #6</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <BrainCircuit className="w-4 h-4 text-gray-600"/>
+            <span className="text-sm font-medium text-gray-900">Seminar #7</span>
+            <span className="text-sm font-medium">•</span>
+            <span className="text-sm font-normal text-gray-900">May 28, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
-            <span className="font-medium">Prompt Engineering</span> & ML Foundations
+            <span className="font-medium">Prompt Engineering</span>
           </h1>
           <p className="text-xl text-gray-600">
-            Bridging AI Interaction and Machine Learning Principles
+            For Online and Offline Large Language Models
           </p>
         </section>
 
@@ -373,6 +376,13 @@ const Seminar7: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={7} // Current seminar number
+            totalSeminars={7} // Total number of seminars
+            seminarsPerPage={1} // Usually 1 seminar per page
+            basePath="/seminars" // Your base path
+          />
         </div>
       </div>
     </Layout>

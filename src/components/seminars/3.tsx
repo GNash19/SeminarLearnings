@@ -3,10 +3,11 @@ import React from "react";
 import Layout from "../Layout";
 import { 
   Award, Bookmark, Calendar, ClipboardList, Compass, 
-  FileText, Globe, Layers, Mic, Presentation, 
+  FileText, Globe, Layers, Mic, Presentation, SearchCheck,
   Search, Settings, TrendingUp, Users, Zap, MessageCircleCode
 } from "lucide-react";
 import cris from "@/assets/images/cris.jpg";
+import SeminarPagination from "../SeminarPagination";
 
 const Seminar3: React.FC = () => {
   return (
@@ -14,9 +15,11 @@ const Seminar3: React.FC = () => {
       <div className="container mx-auto px-4 py-12 max-w-5xl mt-16">
         {/* Header Section */}
         <section className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-4">
-            <Mic className="w-4 h-4 text-gray-700" />
-            <span className="text-sm font-medium">Seminar #3</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full mb-6 border border-gray-200 hover:bg-white transition-colors duration-200">
+            <SearchCheck className="w-4 h-4 text-gray-600" />
+            <span className="text-sm font-medium text-gray-900">Seminar #3</span>
+            <span className="text-sm text-gray-500">•</span>
+            <span className="text-sm font-normal text-gray-900">May 22, 2025</span>
           </div>
           <h1 className="text-4xl font-light mb-4 tracking-tight">
             <span className="font-medium">Research 101:</span>
@@ -364,6 +367,13 @@ const Seminar3: React.FC = () => {
               </p>
             </div>
           </section>
+
+          <SeminarPagination 
+            currentPage={3} // Current seminar number
+            totalSeminars={7} // Total number of seminars
+            seminarsPerPage={1} // Usually 1 seminar per page
+            basePath="/seminars" // Your base path
+          />
         </div>
       </div>
     </Layout>

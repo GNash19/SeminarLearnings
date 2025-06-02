@@ -9,6 +9,7 @@ import seminar5 from '@/assets/images/seminar5.jpg';
 import seminar6 from '@/assets/images/seminar6.jpg';
 import seminar7 from '@/assets/images/seminar7.jpg';
 import homepic from '@/assets/images/homeback.jpg';
+import media from '@/assets/images/media.jpg';
 
 const Home: React.FC = () => {
   const seminars = [
@@ -67,6 +68,17 @@ const Home: React.FC = () => {
       speaker: "Mr. Eric John Emberda",
       description: "Understanding the principles and practices of prompt engineering in AI.",
       image: seminar7
+    }
+  ];
+
+  const tours = [
+    {
+      id: 1,
+      title: "Educational Tour",
+      date: "May 31, 2025",
+      speaker: "Mindanao Media Hub",
+      description: "Exploring the world of media and technology at the Mindanao Media Hub.",
+      image: media
     }
   ];
   
@@ -130,6 +142,35 @@ const Home: React.FC = () => {
                   <div className="p-6 bg-white">
                     <p className="text-sm text-gray-500 mb-2">Presented by {seminar.speaker}</p>
                     <p className="text-gray-700">{seminar.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="py-8">
+            <h3 className="text-2xl font-light mb-8 tracking-tight text-center">Attended <span className="font-medium">Tours</span></h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              {tours.map((tours) => (
+                <Link
+                  to={`/Tour`}
+                  className="group block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200"
+                >
+                  <div className="relative h-48 bg-gray-200 overflow-hidden">
+                    <img 
+                      src={tours.image} 
+                      alt={tours.title}
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                    <div className="absolute bottom-0 left-0 p-4 text-white">
+                      <h4 className="text-xl font-medium">{tours.title}</h4>
+                      <p className="text-sm text-gray-300">{tours.date}</p>
+                    </div>
+                  </div>
+                  <div className="p-6 bg-white">
+                    <p className="text-sm text-gray-500 mb-2">Went to {tours.speaker}</p>
+                    <p className="text-gray-700">{tours.description}</p>
                   </div>
                 </Link>
               ))}
