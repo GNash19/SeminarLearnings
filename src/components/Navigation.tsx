@@ -94,15 +94,13 @@ const Navigation: React.FC = () => {
     `}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <h1 className="text-2xl md:text-3xl font-light tracking-tight">
-          SW<span className="font-medium">&T</span>
+          <Link to="/" className="hover:text-gray-300 transition-colors">
+           SW<span className="font-medium">&T</span>
+          </Link>
         </h1>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <Link to="/" className="text-sm uppercase tracking-wider hover:text-gray-300 transition-colors">
-            Home
-          </Link>
-          
           <div 
             className="relative"
             ref={dropdownRef}
