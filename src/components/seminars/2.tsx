@@ -203,11 +203,6 @@ const Seminar2: React.FC = () => {
                   <p className="text-gray-600">Achieved 83% accuracy for both Manobo and Kagan datasets (from 70% baseline)</p>
                 </div>
               </div>
-              <div className="prose prose-gray max-w-none">
-                <p className="text-gray-700">
-                  The research demonstrated that direct spectrogram extraction outperformed JPG conversion by 8% in accuracy. The standardized pre-processing pipeline reduced feature extraction time by 32% compared to previous methods.
-                </p>
-              </div>
             </div>
           </section>
 

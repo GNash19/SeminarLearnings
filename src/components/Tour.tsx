@@ -182,11 +182,11 @@ const Tour: React.FC = () => {
               </h3>
               <p className="mb-4">
                 Visiting the Mindanao Media Hub sparked new perspectives on career opportunities in digital communication, 
-                government media, and broadcasting technology—opening doors to paths I had never explored before.
+                government media, and broadcasting technology, opening doors to paths I had never explored before.
               </p>
               <div className="bg-black/20 p-4 rounded-lg border border-white/10">
                 <p className="italic">
-                  "Seeing the scale and sophistication of the Mindanao Media Hub inspired me to consider a career in media technology and public service communication."
+                  "Seeing the scale and sophistication of the Mindanao Media Hub enlightened me to appreciate the careers in media technology and public service communication."
                 </p>
               </div>
             </div>
