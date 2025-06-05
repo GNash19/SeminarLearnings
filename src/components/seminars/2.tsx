@@ -183,9 +183,6 @@ const Seminar2: React.FC = () => {
                   <p>4. Database Storage & Feature Extraction</p>
                   <p>5. Model Training & Validation</p>
                 </div>
-                <p className="mt-3 text-gray-700 text-sm">
-                  The team developed custom Python scripts for audio processing and leveraged TensorFlow for model training.
-                </p>
               </div>
             </div>
           </section>
