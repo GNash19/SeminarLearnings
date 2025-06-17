@@ -28,6 +28,13 @@ import sempic7_1 from '@/assets/images/sempic-7-1.jpg';
 import sempic7_2 from '@/assets/images/sempic-7-2.jpg';
 import sempic7_3 from '@/assets/images/sempic-7-3.jpg';
 import sempic7_4 from '@/assets/images/sempic-7-4.jpg';
+import sempic8_1 from '@/assets/images/sempic-8-1.jpg';
+import sempic8_2 from '@/assets/images/sempic-8-2.jpg';
+import sempic8_3 from '@/assets/images/sempic-8-3.jpg';
+import sempic9_1 from '@/assets/images/sempic-9-1.jpg';
+import sempic9_2 from '@/assets/images/sempic-9-2.jpg';
+import sempic9_3 from '@/assets/images/sempic-9-3.jpg';
+import sempic9_4 from '@/assets/images/sempic-9-4.jpg';
 
 const Documentation: React.FC = () => {
   // Dummy seminar photo data
@@ -97,7 +104,7 @@ const Documentation: React.FC = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       title: "Prompt Engineering",
       date: "May 28, 2025",
       images: [
@@ -105,6 +112,27 @@ const Documentation: React.FC = () => {
         sempic7_2,
         sempic7_3,
         sempic7_4
+      ]
+    },
+    {
+      id: 8,
+      title: "Understanding Agentic AI",
+      date: "June 13, 2025",
+      images: [
+        sempic9_1,
+        sempic9_2,
+        sempic9_3,
+        sempic9_4
+      ]
+    },
+    {
+      id: 9,
+      title: "Exploring Web3 and Blockchains",
+      date: "June 14, 2025",
+      images: [
+        sempic8_1,
+        sempic8_2,
+        sempic8_3
       ]
     }
   ];

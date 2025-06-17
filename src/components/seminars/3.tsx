@@ -370,7 +370,7 @@ const Seminar3: React.FC = () => {
 
           <SeminarPagination 
             currentPage={3} // Current seminar number
-            totalSeminars={7} // Total number of seminars
+            totalSeminars={9} // Total number of seminars
             seminarsPerPage={1} // Usually 1 seminar per page
             basePath="/seminars" // Your base path
           />

@@ -8,6 +8,8 @@ import seminar4 from '@/assets/images/seminar4.jpg';
 import seminar5 from '@/assets/images/seminar5.jpg';
 import seminar6 from '@/assets/images/seminar6.jpg';
 import seminar7 from '@/assets/images/seminar7.jpg';
+import seminar8 from '@/assets/images/seminar8.jpg';
+import seminar9 from '@/assets/images/seminar9.jpg';
 import homepic from '@/assets/images/homeback.jpg';
 import media from '@/assets/images/media.jpg';
 
@@ -68,7 +70,23 @@ const Home: React.FC = () => {
       speaker: "Mr. Eric John Emberda",
       description: "Understanding the principles and practices of prompt engineering in AI.",
       image: seminar7
-    }
+    },
+    {
+      id: 8,
+      title: "Understanding Agentic AI",
+      date: "June 13, 2025",
+      speaker: "Mr. Ralph Vincent Regalado",
+      description: "A seminar on the principles and applications of agentic AI.",
+      image: seminar8
+    },
+    {
+      id: 9,
+      title: "Exploring Web3 and Blockchain Technologies",  
+      date: "June 14, 2025",
+      speaker: "Mr. Berey, Mr. Nervida, Mr. Albores, and Mr. Bastes",
+      description: "An in-depth look at Web3 and blockchain technologies and their impact on the future.",
+      image: seminar9
+    },
   ];
 
   const tours = [

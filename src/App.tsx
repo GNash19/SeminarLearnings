@@ -11,6 +11,9 @@ import Seminar4 from "./components/seminars/4";
 import Seminar5 from "./components/seminars/5";
 import Seminar6 from "./components/seminars/6";
 import Seminar7 from "./components/seminars/7";
+import Seminar8 from "./components/seminars/8";
+import Seminar9 from "./components/seminars/9";
+import Certificates from "./components/Certificates";
 
 // ScrollToTop component
 const ScrollToTop: React.FC = () => {
@@ -41,7 +44,10 @@ const App: React.FC = () => {
         <Route path="/seminars/5" element={<Seminar5 />} />
         <Route path="/seminars/6" element={<Seminar6 />} />
         <Route path="/seminars/7" element={<Seminar7 />} />
+        <Route path="/seminars/8" element={<Seminar8 />} />
+        <Route path="/seminars/9" element={<Seminar9 />} />
         <Route path="/documentation" element={<Documentation />} />
+        <Route path="/certificates" element={<Certificates />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Router>
